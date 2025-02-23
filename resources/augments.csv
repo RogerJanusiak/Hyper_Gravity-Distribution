@@ -1,0 +1,24 @@
+Damage 1,Increase the,damage of the weapon by 1.,Explosion-5.png,0,0,1,1,0,1,1,10
+Damage 2,Increase the,damage of the weapon by 2.,Explosion-5.png,0,1,1,0,0,1,2,20
+Damage 3,Increase the,damage of the weapon by 3.,Explosion-5.png,0,2,1,0,0,1,3,30
+Clip Increase 1,Increase the,amount of ammo in clip by 1.,augs/aug-clip.png,1,3,1,1,1,1,1,10
+Clip Increase 2,Increase the,amount of ammo in clip by 2.,augs/aug-clip.png,1,4,1,1,1,1,2,20
+Clip Increase 3,Increase the,amount of ammo in clip by 3.,augs/aug-clip.png,1,5,1,0,1,1,3,30
+Reload Speed 1,Decrease the,time it takes to reload by 25%.,Explosion-5.png,2,6,1,1,1,1,1,10
+Reload Speed 2,Decrease the,time it takes to reload by 50%.,Explosion-5.png,2,7,1,1,1,1,2,20
+Reload Speed 3,Decrease the,time it takes to reload by 75%.,Explosion-5.png,2,8,1,1,1,1,3,30
+Strength 1,Bullets continue,through 1 additional enemy.,Explosion-5.png,3,9,0,1,1,1,1,10
+Strength 2,Bullets continue,through 2 additional enemies.,Explosion-5.png,3,10,0,1,1,1,2,20
+Strength 3,Bullets continue,through 3 additional enemies.,Explosion-5.png,3,11,0,1,1,1,3,30
+Bullet Durability 1,Bullets can,slide along 1 additional platform.,augs/aug-durability.png,4,12,1,1,0,0,1,10
+Bullet Durability 2,Bullets can,slide along 3 additional platforms.,augs/aug-durability.png,4,13,1,1,0,0,2,20
+Bullet Durability 3,Bullets can,slide along 4 additional platforms.,augs/aug-durability.png,4,14,1,1,0,0,3,30
+Riot Shield 1,Reduce damage taken by 10%,while using augmented weapon.,Explosion-5.png,5,15,1,0,1,0,1,10
+Riot Shield 2,Reduce damage taken by 20%,while using augmented weapon.,Explosion-5.png,5,16,1,0,1,0,2,20
+Riot Shield 3,Reduce damage taken by 30%,while using augmented weapon.,Explosion-5.png,5,17,1,0,1,0,3,30
+Tesla Coil 1,Increases power transfer,from enemies by 10%.,Explosion-5.png,6,18,1,0,1,1,1,10
+Tesla Coil 2,Increases power transfer,from enemies by 20%.,Explosion-5.png,6,19,1,0,1,1,2,20
+Tesla Coil 3,Increases power transfer,from enemies by 30%.,Explosion-5.png,6,20,1,0,1,1,3,30
+SRT Efficiency,Decreases the power usage of,short-range teleporter by 50%.,augs/aug-srt.png,7,21,1,1,1,1,1,10
+Shield Booster,Makes shield surround player,but doubles power draw.,augs/aug-shield-booster.png,8,22,1,1,1,1,1,10
+Reloading Shield,Become invincible while reloading,slightly increases reload times.,Explosion-5.png,8,23,1,1,1,1,1,10
