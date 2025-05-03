@@ -1,0 +1,39 @@
+spawn-rate: 3
+birth-rate: 10
+level-goal: power
+wave-level: 1
+
+graphics:
+  platforms: stone-brick
+  base-platforms: concrete
+  lower-supports: levels/lower-support-steel.png
+  upper-supports:
+
+generation:
+  spawn-platform-spacing: 2
+  platform-spacing: 1
+  corner-seed-chance: 50
+  platform-width-distribution: [10, 50, 50, 10]
+  extension-change: 80
+  teleport-chance: 5
+
+custom-rows:
+  0: [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+  1: [-1,0,0,0,0,-1,0,0,0,0,0,-1,0,0,0,-1]
+  2: [0,-1,0,0,0,0,-1,5,1,5,-1,0,0,0,-1,0]
+
+enemies:
+  robor: 8
+  roborto: 8
+  robro: 8
+  roo: 0
+
+transporter:
+    type: subway
+    width: 782
+    height: 37
+    path: [[1500, 34], [0,34], [-1500,34]]
+    stop-delay: [1,10,1]
+    sprite: entities/subway-train.png
+    door-sprite: entities/subway-train-doors.png
+    spawn: [[27,8],[88,8],[149,8],[210,8],[291,8],[352,8],[413,8],[474, 8], [555, 8], [616,8]]

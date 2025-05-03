@@ -1,0 +1,25 @@
+spawn-rate: 2
+birth-rate: 10
+level-goal: power
+wave-level: 1
+
+graphics:
+  platforms: steel
+  base-platforms: concrete
+  lower-supports: levels/lower-support-steel.png
+  upper-supports: levels/upper-support-chain.png
+
+generation:
+  spawn-platform-spacing: 2
+  platform-spacing: 1
+  corner-seed-chance: 20
+  platform-width-distribution: [10, 30, 50, 10]
+  extension-change: 50
+  teleport-chance: 10
+
+enemies:
+  robor: 8
+  roborto: 8
+  robro: 8
+  roo: 0
+

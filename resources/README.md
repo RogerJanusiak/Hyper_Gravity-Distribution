@@ -1,32 +1,52 @@
-# Resources Directory
-Welcome to the resources directory! Most likley you know why you are here already or you are just curious. 
-For the most part this directory is used to store the important sounds and graphics in the game. However there are
-some ways that you can change how the game runs to give you more of a unique experience! Keep reading if you are
-interested in these options.
+![Over_Gravity Logo](/resources/textures/logo.png)
 
-## Changing Sounds/Textures
-If you would like to change how the game looks and sounds you can replace any of the textures and sounds in those
-two folders. Just make sure that what you are replacing it with has the same name, file type, and aspect ratio.
+## Game Resources
 
-## Creating Levels
-Are you bored with the default game levels? Then why not create one! Here are the rules that must be followed
-when creating a level.
+If you have made it into this folder than you are probably looking for ways to make changes
+to Hyper_Gravity. I hope that you enjoy your game editing endevours and this readme will
+hopfully help guide you through many of these changes.
 
-### File Type/Name
-When creating a level make sure that you are using a csv file and that the name is the same as one of the current
-levels. Your level will replace the current level in the game, so just select that button from the menu.
+### Folders/Files
 
-### Level Grid
-The levels in Over_Gravity are made using a grid/tile design. Each tile is 80px x 80px for 800x480 resolution.
-The levels are 12 tiles across and as many tiles deep as you want. 800/80 = 10 so why 12? Before the entities wrap
-around the screen they need a second to teleport. This means that if you have a platform on the edge of the screen
-make sure there is one off-screen. The first and last column is not shown.
+- levels
+  - This folder stores all information about the levels in the game. This does not include textures. If you are looking to make your own levels or edit prexisting ones, this is the place to go!
+- sounds
+  - By replacing the sounds in this folder with new sounds of the same name, you can edit the sounds in the game.
+- textures
+  - The same as the sounds folder, but for textures!
+- augments.csv
+  - This file stores the properties of the augments. This doesn't change how they effect the game, but it can change the name, icon, and description.
 
-### Tile Types
-Each spot in the csv can be filled in with one of the following options:
+### Creating/Editing Levels
 
-1. -1 : Empty Space
-2.  0 : Empty Platform
-3.  1 : Player spawn (Exactly 1 Per Level)
-4.  2 : Non-tracking enemy Spawn (1 required)
-5.  3 : All enemy spawn (1 required)
+If you are interested in changing levels here is what you need to know. There are two
+files associated with each level. The level map and the properties file. The map dictates what
+the level looks like and the properties change how it plays. Both of these files are CSV
+and can easily be edited.
+
+#### Level Map
+When changing the level map you can change one of the numbers to change how the level plays.
+The numbers have the following meaning:
+
+- 0 - Platforms
+- 1 - Emtpy Space
+- 2 - Enemy Spawn
+- 3 - Player Spawn
+- 4 - Teleporter
+
+#### Level Properties
+You can also change the level properties using the following numbers:
+
+- 0 - Location of Elevator (x,y)
+- 1 - Location of Movables (type,x,y,buttonx,buttony)
+  - 0 - blue crate
+  - 1 - yellow crate
+  - 2 - red crate
+  - 3 - green crate
+- 2 - Enemy Spawn Rate (in seconds)
+- 3 - Enemy Birth Rate (in seconds)
+- 4 - Level Goal (type)
+  - 0 - Power Meter Filled
+  - 1 - Interaction Objects
+- 5 - Enemy Distribution (robor, roborto, robro, xxx, roo)
+- 6 - Wave Level (determines which augments can be unlocked during play)
